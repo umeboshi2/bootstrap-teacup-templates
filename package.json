@@ -1,0 +1,22 @@
+{
+  "name": "bootstrap-teacup-templates",
+  "version": "0.0.1",
+  "description": "bootstrap teacup templates",
+  "main": "coffee/main.coffee",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/umeboshi2/bootstrap-teacup-templates.git"
+  },
+  "author": "Joseph Rawson",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/umeboshi2/bootstrap-teacup-templates/issues"
+  },
+  "homepage": "https://github.com/umeboshi2/bootstrap-teacup-templates#readme",
+  "dependencies": {
+    "teacup": "^2.0.0"
+  }
+}
