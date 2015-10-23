@@ -4,12 +4,8 @@ Backbone = require 'backbone'
 tc = require 'teacup'
 
 
-# Main Templates must use teacup.
-# The template must be a teacup.renderable, 
-# and accept a layout model as an argument.
-
 ########################################
-# NavBar Templates
+# Button Templates
 ########################################
 spanbutton = tc.component (selector, attrs, renderContents) ->
   #console.log selector, attrs, renderContents

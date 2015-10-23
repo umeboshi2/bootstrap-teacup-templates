@@ -3,12 +3,8 @@ _ = require 'underscore'
 
 tc = require 'teacup'
 
-# Main Templates must use teacup.
-# The template must be a teacup.renderable, 
-# and accept a layout model as an argument.
-
 ########################################
-# Templates
+# Menu Templates
 ########################################
 user_menu = tc.renderable (user) ->
   name = user.username

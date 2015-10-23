@@ -3,12 +3,8 @@ _ = require 'underscore'
 tc = require 'teacup'
 
 
-# Main Templates must use teacup.
-# The template must be a teacup.renderable, 
-# and accept a layout model as an argument.
-
 ########################################
-# Templates
+# Layout Templates
 ########################################
 BootstrapLayoutTemplate = tc.renderable () ->
   tc.div '#main-navbar.navbar.navbar-default.navbar-fixed-top',
