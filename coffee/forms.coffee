@@ -12,7 +12,7 @@ form_group_input_div = tc.renderable (data) ->
       for:data.input_id
       data.label
     input_type = if data?.input_type then data.input_type else tc.input
-    input_type "##{data.input_id}.form-control", data.input_attributes
+    tc[input_type] "##{data.input_id}.form-control", data.input_attributes
 
 login_form = tc.renderable (user) ->
   tc.form
